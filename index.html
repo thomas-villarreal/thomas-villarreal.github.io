@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!adapted from: https://www.w3schools.com/w3css/w3css_templates.asp>
+<html>
+<title>Villarreal Industries LLC.</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/dejavu-sans-mono" type="text/css"/>
+
+<style>
+
+body,h1,p {
+	font-family: "DejaVu Sans Mono", Consolas;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	line-height: 1.5;
+	font-weight: 400;
+}
+html {
+	overflow: hidden;
+}
+body, html {
+	height: 100%;
+}
+body {
+	margin:0
+}
+.bgimg {
+	background-image: url('Earth_Moon.jpg');
+	min-height: 100%;
+	background-position: center;
+	background-size: cover;
+}
+.display-middle {
+	position:absolute;
+	top:65%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.display-bottomleft {
+	position:absolute;
+	left:0;
+	bottom:0;
+	padding:12px 12px;
+	font-size:12px;
+}
+hr {
+	font-size:15px;
+	line-height:1.5;
+	height:0;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="display-middle">
+    <h1 style="font-size:48px;line-height:45px;margin:20px 0">VILLARREAL<br>INDUSTRIES</h1>
+    <hr style="margin:auto;width:80%;border-color:#9e9e9e">
+    <p style="font-size:18px;margin:20px 0">Aerospace Engineering</p>
+  </div>
+  <div class="display-bottomleft">
+    Image Credit: <a href="https://images.nasa.gov" target="_blank">NASA</a>
+  </div>
+</div>
+
+</body>
+</html>
